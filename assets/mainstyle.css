@@ -1,33 +1,46 @@
 h1 {
     font-family: "Sans Serif";
-    color: orange;
+    color: white;
     
 }
 
 body{
     font-family: "Sans Serif";
     margin: 0;
+    background-color: #CCCCCC;
 }
 
 a{
     text-decoration: none;
-    color: #1177aa;
+    color: white;
     padding:0.5em;
+}
+
+a:hover {
+    background-color: #55aaff;
 }
 
 .header {
     display: flex;
     text-align: left;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: baseline;
     margin-top: -0.5em; /**for some reason html keeps making a break in the page if this is not added**/
-    margin-bottom: -0.5em;
+    margin-bottom: -0.25em;
+    background-color: cornflowerblue;
 }
+
 
 #tagline {
     /**font-style: italic;**/
+    justify-content: space-between;
     font-size: 0.9em;
-    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: white;
+}
+
+#italic{
+    font-style: italic;
 }
 
 .links {
@@ -35,5 +48,6 @@ a{
     text-align: left;
     justify-content: flex-start;
     align-items: baseline;
-    /**background-color: grey;**/
+    background-color: cornflowerblue;
+    font-style: italic;
 }
