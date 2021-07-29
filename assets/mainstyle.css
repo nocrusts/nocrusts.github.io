@@ -1,7 +1,5 @@
 h1 {
-    font-family: "Sans Serif";
     color: white;
-    
 }
 
 h2{
@@ -9,7 +7,7 @@ h2{
 }
 
 body{
-    font-family: "Sans Serif";
+    font-family: "Noto Sans";
     margin: 0;
     background-color: #494949;
 }
