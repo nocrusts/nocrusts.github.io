@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+<title>nocrusts</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/assets/mainstyle.css">
+</head>
+<body>
+<div class="header">
+    <h1><a href="index">nocrusts</a></h1>
+    <span id="tagline">opensource for the masses</span>
+</div>
+<div class="links">
+    <a href="/">home</a>
+    <a href="/pages/software/apricotaudio">apricotaudio</a>
+</div>
+<div class="sidebar">
+     
