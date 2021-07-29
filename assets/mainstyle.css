@@ -1,3 +1,39 @@
 h1 {
+    font-family: "Sans Serif";
     color: orange;
+    
+}
+
+body{
+    font-family: "Sans Serif";
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #1177aa;
+    padding:0.5em;
+}
+
+.header {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-top: -0.5em; /**for some reason html keeps making a break in the page if this is not added**/
+    margin-bottom: -0.5em;
+}
+
+#tagline {
+    /**font-style: italic;**/
+    font-size: 0.9em;
+    margin-left: 0.5em;
+}
+
+.links {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: baseline;
+    /**background-color: grey;**/
 }
